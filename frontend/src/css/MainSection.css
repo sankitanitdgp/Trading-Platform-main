@@ -1,0 +1,35 @@
+.main-section {
+    display: inline-block;
+    background-color: #1f2227;
+    color: #dbdcde;
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    padding: 20px 10px;
+    font-size: 18px;
+}
+
+.section-heading {
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1160px) {
+    .main-section{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 881px) {
+    .main-section{
+        width: 73%;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .main-section {
+        width: 100%;
+        padding-top: 0;
+    }
+}

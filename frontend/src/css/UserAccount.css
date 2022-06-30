@@ -1,0 +1,130 @@
+.account-heading {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.user-img-div {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    right: 50px;
+}
+
+.user-img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+.user-name-div {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.user-info-outer-div {
+    padding: 50px;
+}
+
+.user-info-div {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+}
+
+.user-info-heading {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.user-info {
+    opacity: 0.7;
+}
+
+.edit-profile-div {
+    display: block;
+    opacity: 0.6;
+}
+
+.edit-profile-logo {
+    font-size: 12px;
+}
+
+.edit-profile-btn{
+    font-size: 14px;
+    color: #ddd;
+    background: none;
+    border: none;
+}
+
+.edit-profile-div:hover {
+    opacity: 1;
+}
+
+.add-money-btn{
+    border-radius: 50%;
+    margin-left: 10px;
+    background: #ff654d;
+    width: 5%;
+    border: none;
+}
+
+.add-money-btn:hover {
+    background: orangered;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .add-money-btn{
+        width: 6%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .user-img-div {
+        right: 0;
+    }
+    .user-img {
+        height: 50%;
+        width: 50%;
+    }
+
+    .add-money-btn{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .user-img-div {
+        width: 100%;
+    }
+    .user-name-div {
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .user-info-outer-div {
+        padding: 20px;
+    }
+
+    .user-info-div{
+        display: block;
+        width: 100%;
+    }
+
+    .add-money-btn{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .add-money-btn{
+        width: 10%;
+    }
+}

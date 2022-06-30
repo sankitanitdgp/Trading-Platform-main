@@ -1,0 +1,42 @@
+
+.stock-link {
+    color: #ddd;
+}
+
+.stock-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.stock-name:hover {
+    background-color: #15191c;
+    cursor: pointer;
+}
+
+.delete-btn {
+    position: relative;
+    cursor: pointer;
+    opacity: 0.5;
+    width: 4.6%;
+    border-radius: 50%;
+    
+}
+
+.delete-btn:hover {
+    opacity: 1;
+}
+
+
+.green {
+    color: #51C136;
+}
+
+.red {
+    color: #CC3838;
+}
+
+/* .centre-td {
+    text-align: center;
+    vertical-align: middle;
+} */

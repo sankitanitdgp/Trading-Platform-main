@@ -1,0 +1,100 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 550px;
+    height: 50%;
+    background-color: #FFF;
+  }
+
+  .popup-inner .popup-close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border: none;
+    background-color: white;
+    color: black;
+  }
+
+  .popup-submit-btn {
+    position: absolute;
+    bottom: 15px;
+    background-color: #ff654d;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  .popup-submit-btn:hover {
+      background-color: orangered;
+  }
+
+  .popup-form-label {
+      display: block;
+      font-weight: 100;
+      color: #2C3E50;
+      margin-top: 10px;
+  }
+
+  .popup-input-field {
+      color: #2C3E50;
+  }
+
+  .first-button{
+    position: absolute;
+
+    height: 20px;
+    padding: 25px;
+    width: 40%;
+    top: 20%;
+    left: 30%;
+  }
+
+  .second-button{
+    position: absolute;
+    height: 20px;
+    padding: 25px;
+    width: 40%;
+    top: 60%;
+    left: 30%;
+  }
+
+  .third-button{
+    position: absolute;
+    height: 20px;
+
+    top: 100px;
+  }
+
+  @media screen and (max-width: 600px){
+    .popup-inner{
+        width: 60%;
+    }
+
+    .first-button{
+      width: 80%;
+      left: 10%;
+    }
+
+    .second-button{
+      width: 80%;
+      left: 10%;
+    }
+
+    .popup-input-field {
+      width: 80%;
+    }
+}

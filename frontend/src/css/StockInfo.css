@@ -1,0 +1,151 @@
+.stock-info-div {
+    display: inline-block;
+    width: fit-content;
+    position: absolute;
+    top: 110px;
+    right: 40px;
+    background-color: #292e32;
+    padding: 25px 80px 25px 25px;
+    border-radius: 7px;
+}
+
+.stock-info-div-without-graph {
+    display: inline-block;
+    width: fit-content;
+    margin: 30px 50px;
+    background-color: #292e32;
+    padding: 25px 80px 25px 25px;
+    border-radius: 7px;
+}
+
+.stock-info-heading {
+    display: inline-block;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.stock-info-data {
+    display: inline-block;
+    margin: 20px;
+}
+
+.stock-info-btn {
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px 30px;
+    width: 100%;
+    border: none;
+    display: block;
+}
+
+.stock-info-btn:hover {
+    opacity: 0.5;
+}
+
+.candlesticks-chart-div {
+    width: 60%;
+    display: inline-block;
+}
+
+
+.black-font {
+    color: black;
+}
+
+
+.buy-btn {
+    background-color: #5A9628;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0px 30px;
+    width: 48%;
+    border-radius: 4px;
+}
+
+.sell-btn {
+    background-color: #FF3333;
+    color: white;
+    width: 38%;
+    margin: 0px 30px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+}
+
+.buy-btn-without-graph {
+    width: 100%;
+}
+
+.sell-btn-without-graph {
+    width: 100%;
+    margin: 20px 30px;
+    position: relative;
+    right: 0;
+}
+
+.buy-btn:hover {
+    opacity: 0.5;
+}
+
+.sell-btn:hover {
+    opacity: 0.5;
+}
+
+.loader {
+    margin: auto;
+    width: fit-content;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 1300px){
+    .candlesticks-chart-div{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .candlesticks-chart-div{
+        display: block;
+        width: 100%;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .stock-info-div{
+        display: block;
+        width: 70%;
+        position: relative;
+        top: 0;
+        margin: auto;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .stock-info-heading{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .stock-info-data{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .stock-info-div{
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 645px){
+    .stock-info-div{
+        width: 90%;
+        left: 0;
+    }
+}

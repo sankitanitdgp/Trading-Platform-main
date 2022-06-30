@@ -1,0 +1,12 @@
+.alert-input {
+    background: white;
+}
+
+.alerts-table-div {
+    background: #292e32;
+    border-radius: 5px;
+    padding: 20px;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+}

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+.navbar-2 {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 85%;
+}
+
+.logout-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #979a9b;
+    font-size: 16px;
+}
+
+.logout-btn:hover{
+    color: white;
+}
+
+.link {
+    margin-right: 25px;
+}
+
+.div {
+    color: white;
+}
+
+.notification {
+    color: white;
+    position: fixed;
+    right: 10px;
+    background: white;
+    color: black;
+    padding: 30px 25px;
+    bottom: 0;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.notification-popup-heading {
+    color: #808B96;
+    position: relative;
+    bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+.notification-popup-message {
+    margin-top: 10px;
+}
+
+.notification-close-btn-div {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    cursor: pointer;
+    opacity: 0.5;
+    width: 5%;
+    border-radius: 50%;
+}
+
+.notification-close-btn-div:hover {
+    opacity: 1;
+    background: #CACFD2;
+}
+
+.notification-close-btn {
+    width: fit-content;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .logout-btn{
+        top: -10px;
+    }
+}

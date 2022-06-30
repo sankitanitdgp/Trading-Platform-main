@@ -1,0 +1,101 @@
+.analytics-heading {
+    margin: 50px 35px 35px;
+}
+
+.row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 15px; 
+    font-size: 14px;
+}
+.analytics-card-col {
+    display: table-cell;
+    background-color: #292e32;
+    width: 100%;
+    padding: 15px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.analytics-card-col .fa-wallet {
+    color: #509EED;
+}
+
+.analytics-card-col .fa-coins {
+    color: #51C136;
+}
+
+.analytics-card-col .fa-dollar-sign {
+    color: #ff654d;
+}
+
+.analytics-card-logo {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    font-size: 70px;
+    opacity: 0.8;
+}
+
+.money {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.charts-div {
+    display: table;
+    width: 60%;
+    margin: auto;
+    table-layout: fixed;
+    border-spacing: 15px;
+    background: #292e32;
+    border-radius: 7px;
+    padding: 10px; 
+}
+
+.chart {
+    display: table-cell;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1100px){
+    .analytics-card-logo{
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .row {
+        display: block;
+    }
+    .analytics-card-col{
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .analytics-card-logo{
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+    }
+
+    .charts-div {
+        display: block;
+        width: 90%;
+        margin-top: -20px;
+        padding-bottom: 20px;
+    }
+    .chart{
+        display: block;
+        padding: 0;
+        margin: 20px 0;
+    }
+}
+
+
